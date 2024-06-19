@@ -18,8 +18,8 @@ export const Series = () => {
           .map((serie, index) => (
             <Card
               key={index}
-              imagen={serie.images["Poster Art"].url}
-              titulo={serie.title}
+              image={serie.images["Poster Art"].url}
+              title={serie.title}
             />
           ))}
       </div>
